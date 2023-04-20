@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  row-gap: 5vh;
+  -moz-column-gap: 6.6vw;
+       column-gap: 6.6vw;
+  width: 80vw;
+  padding-top: 5vh;
+}
+.row .gallery {
+  border: 1px solid rgb(86, 152, 228);
+  height: 50vh;
+  background-color: rgb(86, 152, 228);
+}
+.row .main {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  row-gap: 5vh;
+  margin: 0;
+  padding: 0;
+}
+.row .main .title {
+  border: 1px solid rgb(86, 152, 228);
+  height: 10vh;
+  background-color: rgb(86, 152, 228);
+}
+.row .main .buy_box {
+  border: 1px solid rgb(86, 152, 228);
+  height: 35vh;
+  background-color: rgb(86, 152, 228);
+}
+.row .description {
+  border: 1px solid rgb(86, 152, 228);
+  height: 10vh;
+  background-color: rgb(86, 152, 228);
+}
+.row .related {
+  border: 1px solid rgb(86, 152, 228);
+  height: 10vh;
+  background-color: rgb(86, 152, 228);
+}/*# sourceMappingURL=style.css.map */

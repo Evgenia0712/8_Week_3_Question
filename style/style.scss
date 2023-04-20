@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.row {
+    row-gap: 5vh;
+    column-gap: 6.6vw;
+    width: 80vw;
+    padding-top: 5vh;
+
+    .gallery {
+        border: 1px solid rgb(86, 152, 228);
+        height: 50vh;
+        background-color: rgb(86, 152, 228);
+    }
+
+    .main {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        row-gap: 5vh;
+        margin: 0;
+        padding: 0;
+
+        .title {
+            border: 1px solid rgb(86, 152, 228);
+            height: 10vh;
+            background-color: rgb(86, 152, 228);
+        }
+
+        .buy_box {
+            border: 1px solid rgb(86, 152, 228);
+            height: 35vh;
+            background-color: rgb(86, 152, 228);
+        }
+
+    }
+
+    .description {
+        border: 1px solid rgb(86, 152, 228);
+        height: 10vh;
+        background-color: rgb(86, 152, 228);
+    }
+
+    .related {
+        border: 1px solid rgb(86, 152, 228);
+        height: 10vh;
+        background-color: rgb(86, 152, 228);
+    }
+}
